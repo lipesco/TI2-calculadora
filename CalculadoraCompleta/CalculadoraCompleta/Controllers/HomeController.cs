@@ -12,7 +12,7 @@ namespace CalculadoraCompleta.Controllers
         public ActionResult Index()
         {
             //inicializar valores
-            ViewBag.Visor = 0;
+            ViewBag.Visor = 0; 
             //ViewBag.Visor = "0";
             Session["PrimeiroOperador"] = true;
             return View();
